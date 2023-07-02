@@ -1,0 +1,28 @@
+/* Write your CSS here */
+
+.todo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo {
+  font-size: 20px;
+  max-width: 85%;
+}
+
+.button {
+  color: #ff0b37;
+  background-color: white;
+  border: 1px solid #ff0b37;
+  display: block;
+  font-family: 'Roboto';
+}
+
+.button {
+  width: 85px;
+  height: 24px;
+  font-size: 15px;
+  border-radius: 8px;
+}
